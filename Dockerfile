@@ -42,6 +42,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-venv \
     python3-toml \
     python3-rich \
+    bubblewrap \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
